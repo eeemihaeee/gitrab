@@ -1,5 +1,15 @@
-# editorconfig.org
- 
+
+ /**
+
+ * @name {String} name Header
+ * @example {Code}
+ * <header class="editorconfig">
+ * ---]<span class="editorconfig__span">Добавление проекта</span>
+ * </header>
+ *
+ * @author {String} eeemihaeee
+ *
+ */
 root = true
 
 [*]
