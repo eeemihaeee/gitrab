@@ -2,7 +2,7 @@
 <?php
 include "BaseVar.php";
 		
-	$tab = htmlentities(file_get_contents("tanos.txt"));
+	$tab = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$far= $_POST['picd'];
 	// ПОЛУЧЕНИЕ ПЕРВОНАЧАЛЬНЫХ НАЗВАНИЙ
 	$res = $bd->query("select * from $tab where id = $far");
