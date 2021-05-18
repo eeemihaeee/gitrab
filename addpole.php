@@ -1,8 +1,8 @@
  
 <?php
 include "BaseVar.php";
-		
-	$tab = htmlentities(file_get_contents("tanos.txt"));
+	# работа с базой	
+	$tab = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$res = $bd->query("select * from $tab");
 	$date = $res->fetchall(PDO::FETCH_ASSOC);
 	echo "<table style = \"border: 1px solid grey\" class = \"table table-bordered table-condensed table-striped table-hover  \">";
@@ -29,12 +29,12 @@ include "BaseVar.php";
 ?>
 <script>
 	$( document ).ready(function(){
-		$( "#dd" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
+		$( "#dd" ).click(function(){ // задаем функцию при нажатиии на элемент <button>.
 			$.ajax({
-				method: "POST", // метод HTTP, используемый для запроса
-				url: "dobavstr.php", // строка, содержащая URL адрес, на который отправляется запрос
+				method: "POST", // метод HTTP, используемый для запроса.
+				url: "dobavstr.php", // строка,содержащая URL адрес, на который отправляется запрос.
 				data:  $('#peredah').serialize(),
-				success: function(msgq) { // получен ответ сервера  
+				success: function(msgq) { // получен ответ сервера.  
 				$('#vol').html(msgq);
 				}
 			});
