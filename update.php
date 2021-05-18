@@ -6,14 +6,14 @@
 	//UPDATE table_name SET column1=new_value, column2=new_value WHERE condition;
     $id = $_POST['hid'];
 	
-	//ХРЕНЬ ДЛЯ ПОЛУЧЕНИЯ НАЗВАНИЯ АТРИБУТА
+	//ПОЛУЧЕНИЯ НАЗВАНИЯ АТРИБУТА
 	$res = $bd->query("select * from $tab");
 	for ($i = 0; $i< $res->columnCount(); $i++)
 	{
 		$col = $res->getColumnMeta($i);
 	    $colums[]=$col['name'];
 	}
-	//ХРЕНЬ ДЛЯ ПОЛУЧЕИЯ СТРОКИ С ID
+	//ПОЛУЧЕНИЯ СТРОКИ С ID
 	$we = "SELECT * FROM $tab where id = $id";	
 	$res = $bd->query($we);
 	$date = $res->fetchall(PDO::FETCH_ASSOC);
