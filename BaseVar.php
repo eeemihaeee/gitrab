@@ -11,7 +11,7 @@
 		$bd = new PDO("mysql:host={$host};dbname={$db_name};", $username, $password);
 		$bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}  
-	// Ошибка 
+	// Сообщение при ошибке 
 	catch(PDOException $exception){
 		echo "Проблема с подключением: " . $exception->getMessage();
 	}
