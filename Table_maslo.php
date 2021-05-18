@@ -10,7 +10,7 @@
 		$bd_xleb = new PDO("mysql:host={$h_xleb};dbname={$db_name_xleb};", $u_xleb, $p_xleb);
 		$bd_xleb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}  
-	// Ошибка 
+	// Ошибка c подключением
 	catch(PDOException $exception){
 		header("HTTP/1.0 501");
 		include "Errors_prog/501.php";
