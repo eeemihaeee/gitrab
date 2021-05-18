@@ -31,6 +31,7 @@ include "BaseVar.php";
 	echo "</table>";
 	echo "<center><button type=\"button\" id = \"dd\"  class=\"btn btn-primary\">Добавить</button></center>";
 
+
 ?>
 <script>
 	$( document ).ready(function(){
