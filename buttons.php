@@ -4,5 +4,4 @@
 	$zapros = "SELECT * from `$name_table`";
 	vivod($bd, $zapros, $name_table); 	
 	// Функция библиотеки TableT
-	
 ?>
