@@ -10,7 +10,7 @@ include "BaseVar.php";
 			
 		if($column_value=="char")
 		{
-			$type = " VARCHAR(50) ";
+			$type = " VARCHAR(75) ";
 		}
 		if($column_value=="int")
 		{
