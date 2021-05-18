@@ -1,6 +1,6 @@
  
 <?php
-		//СПИСОК ТАБЛИЦ 
+		//Список таблиц 
    	include "BaseVar.php";
 	$res = $bd->query("SHOW TABLES FROM `trate`");
 	$dat = $res->fetchall(PDO::FETCH_ASSOC);
@@ -20,7 +20,7 @@
 
 
 <script>
-	// ВЫПАДАЮЩЕЕ МЕНЮ
+	//Выпадающее меню
 	function TableShow(ogon){
 		$( document ).ready(function(){
 			$.ajax({
