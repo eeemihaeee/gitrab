@@ -48,7 +48,7 @@
 		echo "</table>";
 		
 		// ЗАПИСЬ В ФАЙЛ
-		$fd = fopen("tanos.txt", 'w');  	
+		$fd = fopen("eeemihaeee.txt", 'w');  	
 		fwrite($fd, $nametable);
 		fclose($fd);
 		

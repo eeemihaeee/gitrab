@@ -1,7 +1,7 @@
 <?php 
     include "BaseVar.php";
 	//ОЧИСТКА ТАБЛИЦЫ 	
-	$tabler = htmlentities(file_get_contents("tanos.txt"));
+	$tabler = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$zap = "truncate table $tabler";
 	$bd->query($zap);
 	$zapros = "SELECT * from $tabler";
