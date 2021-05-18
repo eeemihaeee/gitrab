@@ -18,6 +18,7 @@
 					$t[$a]=$s;
 				}
 			}
+			
 			foreach ($t as $key => $val) {
 				if(isset($_POST['table']) && $val==$_POST['table'])
 				{	
