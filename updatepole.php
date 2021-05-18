@@ -1,3 +1,4 @@
+//Обновление полей
 <?php
 include "BaseVar.php";
 		
