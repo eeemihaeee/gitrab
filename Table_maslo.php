@@ -11,6 +11,7 @@
 		$bd_xleb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}  
 	// Ошибка c подключением
+	
 	catch(PDOException $exception){
 		header("HTTP/1.0 501");
 		include "Errors_prog/501.php";
