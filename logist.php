@@ -24,7 +24,7 @@
 	echo "<center><button type = \"button\" id = \"clearlog\" class=\"btn btn-danger\">Очистить таблицу</button></center>";
 	
 	
-	
+	//ПОДСКАЗКА (ЧТОБЫ НЕ ИСКАТЬ)
 	//CREATE TRIGGER trigger_name trigger_time trigger_event ON tbl_name FOR EACH ROW trigger_stmt
 	///trigger_name — название триггера
 	//trigger_time — Время срабатывания триггера. BEFORE — перед событием. AFTER —
