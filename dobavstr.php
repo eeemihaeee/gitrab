@@ -1,9 +1,6 @@
  <?php 
 	include "BaseVar.php";
 	$tab = htmlentities(file_get_contents("tanos.txt"));
-
-
-	
 	$var = "";
 	
 	// ДОБАВЛЕНИЕ СТРОКИ
