@@ -1,6 +1,6 @@
  <?php 
 	include "BaseVar.php";
-	$tab = htmlentities(file_get_contents("tanos.txt"));
+	$tab = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$var = "";
 	
 	// ДОБАВЛЕНИЕ СТРОКИ
