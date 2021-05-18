@@ -1,4 +1,4 @@
-//УДАЛЕНИЕ СТРОКИ
+//Удаление строки
 function DeletS( ogos){
 	$( document ).ready(function(){
 		$.ajax({
