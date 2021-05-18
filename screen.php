@@ -1,6 +1,6 @@
 <?php 
 	include "BaseVar.php";
-// ЗАПРОСЫ НА ПЕРВОЙ СТРАНИЦЕ  
+    // ЗАПРОСЫ НА ПЕРВОЙ СТРАНИЦЕ  
 	if(isset($_POST['user']))
 	{
 		global $data;
