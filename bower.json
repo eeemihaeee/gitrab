@@ -11,6 +11,7 @@
     "framework",
     "web"
   ],
+  
   "homepage": "https://getbootstrap.com/",
   "license": "MIT",
   "moduleType": "globals",
@@ -18,6 +19,7 @@
     "less/bootstrap.less",
     "dist/js/bootstrap.js"
   ],
+  
   "ignore": [
     "/.*",
     "_config.yml",
