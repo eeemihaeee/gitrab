@@ -8,10 +8,7 @@ env:
     - TWBS_TEST=core
     - TWBS_TEST=validate-html
     - TWBS_TEST=browserstack
-before_install:
-  - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
-  - echo "$TRAVIS_COMMIT_MSG" | grep '\[skip validator\]'; export TWBS_DO_VALIDATOR=$?; true
-  - echo "$TRAVIS_COMMIT_MSG" | grep '\[skip browserstack\]'; export TWBS_DO_BROWSERSTACK=$?; true
+
 install:
   - bundle install --deployment --jobs=3 --retry=3 --clean
   - npm install
@@ -21,3 +18,7 @@ cache:
     - vendor/bundle
 notifications:
   email: false
+before_install:
+  - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
+  - echo "$TRAVIS_COMMIT_MSG" | grep '\[skip validator\]'; export TWBS_DO_VALIDATOR=$?; true
+  - echo "$TRAVIS_COMMIT_MSG" | grep '\[skip browserstack\]'; export TWBS_DO_BROWSERSTACK=$?; true
