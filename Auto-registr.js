@@ -48,6 +48,7 @@ $('#cheese').keyup(function(){
 	proverka();
 });
 
+
 $('#tomato').keyup(function(){
 	var Value = $('#tomato').val();
 	var Value1 = $('#cheese').val();
@@ -68,7 +69,6 @@ $('#tomato').keyup(function(){
 });
 
 //Проверка формы авторизации
-
 function Aproverka() // Блокировка кнопки ,если поля не заполнены
 {
 	var Value1 = $('#Asugar').val();
