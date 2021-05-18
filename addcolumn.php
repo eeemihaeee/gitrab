@@ -3,16 +3,15 @@ include "BaseVar.php";
 
 	if(isset($_POST['column']))
 	{
+		
 		$tabler = htmlentities(file_get_contents("eeemihaee.txt"));
 
 		$column_title=$_POST["column"];	
-		$column_value=$_POST["listok"];
+		$column_value=$_POST["listok1"];
 		$type = "";
 			
 		if($column_value=="char")
-		{
-			$type = " VARCHAR(75) ";
-		}
+		{$type = " VARCHAR(75) ";}
 		if($column_value=="int")
 		{
 			$type = " INT ";
