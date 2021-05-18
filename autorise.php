@@ -5,9 +5,9 @@ include "dictionary.php";
 	if(isset($_POST['go']))
 	{
 		$sug = $_POST['sugar'];
-		$res = $bd_xleb->query("SELECT login FROM maslo WHERE login ='$sug'");
+		$res = $bd_xleb->query("SELECT login FROM maslo WHERE login ='$sugar'");
 		$records = $res->fetchall(PDO::FETCH_ASSOC);
-		$ches = $bd_xleb->query(" SELECT password FROM maslo WHERE login ='$sug'");
+		$ches = $bd_xleb->query(" SELECT password FROM maslo WHERE login ='$sugar'");
 		$pass = $ches->fetchall(PDO::FETCH_ASSOC);
 		
 		try{
