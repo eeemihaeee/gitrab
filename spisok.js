@@ -1,3 +1,4 @@
+//РЕДАКТИРОВАНИЕ (УДАЛЕНИЕ, ДОБАВЛЕНИЕ)
 // УДАЛЕНИЕ ТАБЛИЦЫ 
 function DeletTable( ogone){
 	$( document ).ready(function(){
