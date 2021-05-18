@@ -8,7 +8,7 @@
 	{
 		$col = $reg->getColumnMeta($i);
 		$colums[]=$col['name'];
-		if($colums[$i]!="id" && $colums[$i]!="ID") # столбец id не заполняем
+		if($colums[$i]!="id" && $colums[$i]!="ID") # Before без столбца
 		{
 			echo "<option value = \"$colums[$i]\">$colums[$i]&emsp;</option>";
 		}

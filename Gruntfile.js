@@ -1,3 +1,4 @@
+//Пример готового года из репозитория
 /*!
  * Bootstrap's Gruntfile
  * https://getbootstrap.com/
