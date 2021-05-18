@@ -11,7 +11,7 @@ include "BaseVar.php";
 		$type = "";
 			
 		if($column_value=="char")
-		{$type = " VARCHAR(75) ";}
+		{$type = " VARCHAR(50) ";}
 		if($column_value=="int")
 		{
 			$type = " INT ";
