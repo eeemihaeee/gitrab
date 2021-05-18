@@ -36,7 +36,7 @@ expo:             https://expo.getbootstrap.com
 themes:           https://themes.getbootstrap.com
 
 cdn:
-  # See https://www.srihash.org for info on how to generate the hashes
+  # See https://www.srihash.org for  info on how to generate the hashes
   css:            https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
   css_hash:       "sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
   css_theme:      https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css
