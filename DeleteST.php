@@ -1,7 +1,7 @@
 <?php 
     include "BaseVar.php";
 	//СЧИТЫВАНИЕ  ИЗ ФАЙЛА
-	$peredac = htmlentities(file_get_contents("tanos.txt"));
+	$peredac = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$ter = $_POST['picd'];
 
 
