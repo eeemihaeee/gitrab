@@ -1,4 +1,5 @@
 <?php
+//Создание таблиц
 include "BaseVar.php" ;
 	$table_title=$_POST["nametable"];
 	
