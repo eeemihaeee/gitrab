@@ -1,4 +1,3 @@
-
 //ДОБАВЛЕНИЕ АТРИБУТА 
 var x = 0;
 $( document ).ready(function(){
