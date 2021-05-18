@@ -3,7 +3,8 @@
 	<link rel="stylesheet" href="css/Style.css">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
-      <!-----------------------Форма заполения поля регитсрации ----------------------------->
+<!-----------------------Форма заполения поля регитсрации ----------------------------->
+
 <center>
 	<form  action="/OBR_signup.php" method = "POST"> 
 		<p><h3>Регистрация пользователя</h3></p>

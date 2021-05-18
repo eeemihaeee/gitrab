@@ -4,7 +4,6 @@
 	$peredac = htmlentities(file_get_contents("eeemihaeee.txt"));
 	$ter = $_POST['picd'];
 
-
 	//результат работы))) ДЛЯ ПОЛУЧЕНИЯ НАЗВАНИЯ АТРИБУТА
 	$res = $bd->query("select * from $peredac");
 	for ($i = 0; $i< $res->columnCount(); $i++)
