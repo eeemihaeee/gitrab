@@ -1,3 +1,4 @@
+//Замена сессий на куки
 <?php include "Table_maslo.php"; ?>
 <html>
     <head>
