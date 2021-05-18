@@ -1,3 +1,4 @@
+//ПЕРЕИМЕНОВАНИЕ СТОЛБЦОВ
 <?php
 	include "BaseVar.php"; 
 	
