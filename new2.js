@@ -15,8 +15,6 @@ $( document ).ready(function(){
 	});
 });
 
-
-
 //ДОБАВЛЕНИЕ ТАБЛИЦЫ
 $( document ).ready(function(){
 	$( "#truns" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
