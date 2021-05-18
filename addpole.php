@@ -1,8 +1,13 @@
  
 <?php
 include "BaseVar.php";
+<<<<<<< HEAD
 	# работа с базой	
 	$tab = htmlentities(file_get_contents("eeemihaeee.txt"));
+=======
+		
+	$tab = htmlentities(file_get_contents("project.txt"));
+>>>>>>> 9457580a1b77b2556fd8ba0e77f8a6803106990c
 	$res = $bd->query("select * from $tab");
 	$date = $res->fetchall(PDO::FETCH_ASSOC);
 	echo "<table style = \"border: 1px solid grey\" class = \"table table-bordered table-condensed table-striped table-hover  \">";

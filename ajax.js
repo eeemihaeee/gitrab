@@ -14,6 +14,7 @@ $(document).ready(function() {
   });
 });
 
+
 // ВЫПАДАЮЩЕЕ МЕНЮ
 $(document).ready(function() {
   $("#btn").click(function() {
