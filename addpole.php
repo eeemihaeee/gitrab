@@ -2,7 +2,7 @@
 <?php
 include "BaseVar.php";
 		
-	$tab = htmlentities(file_get_contents("tanos.txt"));
+	$tab = htmlentities(file_get_contents("project.txt"));
 	$res = $bd->query("select * from $tab");
 	$date = $res->fetchall(PDO::FETCH_ASSOC);
 	echo "<table style = \"border: 1px solid grey\" class = \"table table-bordered table-condensed table-striped table-hover  \">";
